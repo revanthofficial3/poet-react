@@ -1,0 +1,103 @@
+@font-face {
+    font-family: rock;
+    src: url(../assets/rocko/RockoFLF.ttf);
+}
+@font-face {
+    font-family: face;
+    src: url(../assets/typo-grotesk-rounded/Typo\ Grotesk\ Rounded\ Demo.otf);
+}
+
+*{
+    padding:0px;
+    margin:0px;
+    background-color: black;
+}
+.tag1{
+    height:100vh;
+}
+.nav-tag{
+    list-style: none;
+    display:flex;
+    margin:0px  15% ;
+}
+.nav-tag-li{
+    color:white;
+    text-decoration: none;
+    cursor: pointer;
+    padding:10px 20px;
+    font-size:1.5rem;
+    font-weight:bolder;
+    display: block;
+    font-family:face;
+}
+.nav-tag-li:hover{
+    color:black;
+    background-color: white;
+    border-radius: 10px;
+}
+.head-name{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height:90vh;
+}
+.head-h1{
+    color:white;
+    font-size:4.3rem;
+    font-family: face;
+    word-spacing: 10px;;
+}
+.head-h3{
+    color:white;
+    font-size:2rem;
+    font-family:rock;
+}
+/* section2 */
+.tag2{
+    /* height:100vh; */
+    /* background-color: white; */
+    
+}
+.tag2-cmn{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap:40px;
+    background-color: white;
+    padding:50px 10%;
+}
+.tag2-para-cmn{
+    background-color: white;
+}
+.img{
+    background-color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.poet-img{
+    height:30rem;
+    border-radius: 10px;
+    margin:80px 30px;
+}
+.tag2-h1{
+    background-color: white;
+    font-size:1.9rem;
+    padding:10px 0px;
+}
+.tag2-para{
+    background-color: white;
+    font-size:1.5rem;
+    word-spacing: 10px;
+    font-family: face;
+}
+.tag2-para2{
+    margin:30px 0px;
+}
+.tag2-para3{
+    margin:50px 0px;
+   
+    text-align: center;
+    font-size:2rem;
+    color:white;
+}
