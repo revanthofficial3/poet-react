@@ -447,11 +447,14 @@ hr{
 
 
 
-@media screen and (min-width:1002px) and (max-width:1280px) {
+@media screen and (min-width:1024px) and (max-width:1430px) {
 .tag2-cmn{
     display: grid;
     grid-template-columns: 1fr .5fr;
     padding: 20px 10%;
+}
+.tag2-para{
+    font-size:1.3rem;
 }
 .poet-img{
     height:400px;
@@ -470,7 +473,7 @@ hr{
     grid-template-columns: .5fr 1.4fr .5fr;
 }
 .sec3-yr,.sec3-para,.sec3-last-div-li{
-    font-size:1.3rem;
+    font-size:1.1rem;
 }
 }
 
